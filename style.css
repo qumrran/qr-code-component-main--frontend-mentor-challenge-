@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+:root {
+
+--white: hsl(0, 0%, 100%);
+--light_gray: hsl(212, 45%, 89%);
+--grayish_blue: hsl(220, 15%, 55%);
+--dark_blue: hsl(218, 44%, 22%);
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--grayish_blue);
+
+}
+
+.white_container {
+    place-self: center;
+    background-color: var(--white);
+}
